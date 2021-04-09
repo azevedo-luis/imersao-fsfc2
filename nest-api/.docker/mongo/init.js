@@ -1,0 +1,17 @@
+db.routes.insertMany([
+    {_id: '1',
+    title: 'Primeiro',
+    statPosition:{lat: -15.82594, lng: -47.92923},
+    endPosition:{lat: -15.82594, lng: -47.92923},
+    },
+    {_id: '2',
+    title: 'Segundo',
+    statPosition:{lat: -15.82594, lng: -47.92923},
+    endPosition:{lat: -15.82594, lng: -47.92923},
+    },  
+    {_id: '3',
+    title: 'Terceiro',
+    statPosition:{lat: -15.82594, lng: -47.92923},
+    endPosition:{lat: -15.82594, lng: -47.92923},
+    },      
+]);
