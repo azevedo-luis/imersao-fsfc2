@@ -7,6 +7,9 @@ export type RouteDocument = Route & Document;
 @Schema()
 export class Route {
     @Prop()
+    _id: string;
+
+    @Prop()
     title: string;
 
     @Prop(
